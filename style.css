@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#btnLogin {
+  background-color: yellow;
+
+}
+
+#btnRegister {
+  background-color: lightcoral;
+}
