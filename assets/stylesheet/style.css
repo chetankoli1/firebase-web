@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  background-color: pink;
+}
+.section-btn {
+  margin: 20px;
+}
+.section-btn button {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-input input {
+  display: flex;
+  flex-direction: column;
+}
+#btnLogin {
+  width: 50%;
+  background-color: yellow;
+}
+
+#btnRegister {
+  width: 50%;
+  background-color: lightcoral;
+}

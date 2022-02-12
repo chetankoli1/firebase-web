@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Login</title>
+    <link rel="stylesheet" href="./assets/stylesheet/register.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Login, here</h1>
+      <div class="container">
+        <input id="email" type="email" value="" placeholder="Enter Email" />
+        <input
+          id="password"
+          type="password"
+          value=""
+          placeholder="Enter Password"
+        />
+      </div>
+
+      <div class="container-btn">
+        <button onclick="loginuser()" class="register-btn btn-properties">
+          Register
+        </button>
+        <a class="register-btn btn-gologin" href="./register.html"
+          >Don't have Account?SignUp</a
+        >
+        <a class="register-btn btn-gologin" href="./forgot.html"
+          >Forgot password</a
+        >
+      </div>
+    </main>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <script src="./assets/js/app.js"></script>
+
+  <script src="./assets/js/login.js"></script>
+</html>

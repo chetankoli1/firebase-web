@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("https://bitsum.com/wp-content/uploads/dark-background-images-5561-5821-hd-wallpapers.jpg");
+    font-family: sans-serif;
+  }
+  h1 {
+    color: white;
+  }
+  #white-text{
+      color: white;
+  }
+  
+  main {
+    width: 1000%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .container input {
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  .container-btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .register-btn {
+    width: 40%;
+    padding: 10px;
+    font-size: 22px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .btn-properties {
+    background-color: rgb(211, 81, 64);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .btn-properties:hover {
+    background-color: rgb(207, 133, 123);
+  }
+  .btn-gologin {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-gologin:hover{
+      background-color: rgba(255, 255, 255, 0.178);
+  }
+  
